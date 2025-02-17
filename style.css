@@ -1,0 +1,19 @@
+body {
+    background-color: lightgrey;
+  }
+  
+  .josla {
+    overflow: hidden;
+    background-color: #14213D;
+  }
+  
+  .josla a {
+    float: left;
+    color: #FFFFFF;
+    padding: 18px 16px;
+  }
+  
+  .josla a:hover {
+    background-color: #FCA311;
+    color: #E5E5E5;
+  }

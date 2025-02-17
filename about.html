@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+            <div id="navbar"></div>
+
+            <h1 style="color:Purple">Fisst pageee!!!!</h1>
+
+            <script>
+                fetch('upgrade.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById('navbar').innerHTML = data;
+                    })
+                    .catch(error => console.error('Error loading the navbar:', error));
+            </script>
+        </body>
+</html>
